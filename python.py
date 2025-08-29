@@ -45,4 +45,32 @@ print(type(d))  '''
 '''a='hello world' 
 print(len(a))''' 
     
+#Replace string
+'''a="Hello World"
+print(a.replace("H","J"))'''
+
+#Split string
+'''a="Hello World"
+print(a.split(","))'''
+
+#Using Format instrings
+'''age=36
+txt=f"My name is John, I am {age}"
+print(txt)'''
+
+#Boolean 
+'''a=(5>2)
+print(a)'''
+
+'''print(bool(-1))'''
+
+#Function returning a boolean value
+'''def myfunc():
+    return True
+
+if myfunc():
+    print("YES!")
+else:
+    print("NO!")'''
+    
 
