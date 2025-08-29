@@ -73,4 +73,19 @@ if myfunc():
 else:
     print("NO!")'''
     
+#Sequence Datatype
+#LIST
+'''list=['abcd', 786 ,2.23 , 'john' , 70.2]
+tinylist= [23, 'cutie']
+print (list)
+print(type(list))
+print(list[2:])
+print(list + tinylist)'''
 
+#TUPLE (same as list except the brackets)
+'''tuple=('abcd', 786 ,2.23 , 'john' , 70.2)
+print(tuple *2)'''
+
+#Range(start ,stop , step)
+'''for i in range(1,5,2):
+    print(i)'''
