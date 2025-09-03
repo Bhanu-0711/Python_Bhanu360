@@ -2,14 +2,22 @@
 import math
 import random
 x=int(input('Enter the range:- '))
-y=str (x//2)
+y=str(x//2)
 print('You will get only '+y+' chances') 
+a=random.randint(1,x)
 for i in range(1,(x//2)+1):
-    a=random.randint(1,10)
     b=int(input('Enter the no. you guess:- '))
     if (a==b):
         print('You guessed it right')
+        print(f'The no. was {a}')
+        flag=1
         break
     else:
         print('You guessed wrong')
+        flag=0
         pass
+if(flag==1):
+    pass
+else:
+    print(f'The no. was {a}')
+
