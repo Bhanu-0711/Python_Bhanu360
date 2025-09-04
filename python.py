@@ -29,7 +29,8 @@ print(z)'''
 y='WOW'  # declaring globally in the code'''
 
 # Numeric Data Type
-'''a = 10
+'''
+a = 10
 b = 10.0
 c = True
 d = 2+3j
@@ -90,4 +91,13 @@ print(tuple *2)'''
 '''for i in range(1,5,2):
     print(i)'''
     
+#Using match and pass keyword 
+'''
+var=x
+match x: #entering the varible name directly
+    case(1): 
+        pass  # helps in avoiding error in the code
+    case 2:
+        pass
+'''
 
