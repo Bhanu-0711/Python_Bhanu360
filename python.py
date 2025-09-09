@@ -95,9 +95,12 @@ print(tuple *2)'''
 '''
 var=x
 match x: #entering the varible name directly
-    case(1): 
+    case 1|2|3|4|5: 
         pass  # helps in avoiding error in the code
     case 2:
         pass
+    case 3:
+        pass
+        
 '''
 
