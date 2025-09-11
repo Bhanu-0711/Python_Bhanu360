@@ -129,7 +129,7 @@ print(a**2)'''
 b=int(input('Enter no. 2'))
 print(a+b)'''
 
-#swaping two variables 
+#swapping two variables 
 #1
 '''a=int(input('enter no. 1'))
 b=int(input('enter no. 2'))
@@ -194,3 +194,72 @@ print('The simple interest is ',(p*r*t)/100)'''
 #reverse of a string
 '''a=input('enter a string:-  ')
 print(a[::-1])'''
+
+
+#using break in while
+'''i=0
+while i<6:
+    print(i)
+    if i==3:
+        break
+    i+=1'''
+
+#using continue in while
+'''i=0
+while i<6:
+    i+=1
+    if i==3:
+        continue
+    print(i)'''
+    
+#list in python
+'''fruits=['Apple','Cherry','Banana']
+for i in fruits:
+    print(i)'''
+    
+#string iteration
+'''for i in "Apple":
+    print(i)'''
+    
+# break in list
+'''fruits=['Apple','Banana','Cherry']
+for i in fruits:
+    print(i)
+    if i=='Banana':
+        break'''
+
+# continue in list
+'''fruits=['Apple','Banana','Cherry']
+for i in fruits:
+    if i=='Banana':
+        continue        
+    print(i)'''
+    
+# Range with start,end,step value
+'''for i in range(1,10,2):
+    print(i)'''
+    
+# using else after for 
+'''for i in range(10):
+    print(i)
+else:
+    print('Finally')'''
+    
+# using else after while
+'''i=0
+while (i<6):
+    print(i)
+    i+=1
+else:
+    print('Iteration completed')'''
+    
+# nested loop
+'''a=['A','B','C']
+fruits=['Banana','Apple','Cherry']
+for x in a:
+    for y in fruits:
+        print(x,y)'''
+        
+# pass statement
+for i in range(5):
+    pass
