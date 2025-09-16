@@ -261,5 +261,60 @@ for x in a:
         print(x,y)'''
         
 # pass statement
-for i in range(5):
-    pass
+'''for i in range(5):
+    pass'''
+    
+
+## LIST 
+# 1 list allows duplicate values
+# 2 list is ordered and changable
+'''list1=["red","blue","green","red",1,3,10.34]
+print(list1)'''
+# list constructor function
+'''list2=list(("red","blue","green","red",1,3,10.34))
+print(list2)'''
+# indexing
+'''list1=["red","blue","green","red",1,3,10.34]
+print(list[1])'''
+# negative indexing
+'''list1=["red","blue","green","red",1,3,10.34]
+print(list[-1])'''
+# range of indexing
+'''list1=["red","blue","green","red",1,3,10.34]
+print(list[2:4])'''
+# negative range
+'''list1=["red","blue","green","red",1,3,10.34]
+print(list[-4:-1])'''
+# check if item present
+'''list1=["red","blue","green","red",1,3,10.34]
+if "green" in list1:
+    print("YES")'''
+# change list item
+'''list1=["red","blue","green","red",1,3,10.34]
+list1="pink"
+print(list1)'''
+# changing range of items
+'''list1=["red","blue","green","red",1,3,10.34]
+list1[1:3]=['red']*2
+print(list1)'''
+# using insert function
+'''list1=["red","blue","green","red",1,3,10.34]
+list1.insert(2,'hello')
+print(list1)'''
+# using append function
+'''list1=["red","blue","green","red",1,3,10.34]
+list1.append('world')
+print(list1)'''
+# using remove function
+'''list1=["red","blue","green","red",1,3,10.34]
+list1.remove('world')
+print(list1)'''
+# extending a list
+'''list1=["red","blue","green","red",1,3,10.34]
+list2=['rothan','bhanu','ayushi']
+list1.extend(list2)
+print(list1)'''
+# using pop function
+'''list1=["red","blue","green","red",1,3,10.34]
+list1.pop(3) # entering the index to delete
+print(list1)'''
