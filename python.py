@@ -318,3 +318,47 @@ print(list1)'''
 '''list1=["red","blue","green","red",1,3,10.34]
 list1.pop(3) # entering the index to delete
 print(list1)'''
+# delete function
+'''list1=["red","blue","green","red",1,3,10.34]
+del(list1)'''
+# clearing list items
+'''list1=["red","blue","green","red",1,3,10.34]
+list1.clear()
+print(list1)'''
+# printing elements of list
+'''list1=["red","blue","green","red",1,3,10.34]
+for x in list1:
+    print(x)'''
+# looping thorugh list
+'''list1=["red","blue","green","red",1,3,10.34]
+for i in range(len(list1)):
+    print(i)'''
+# while statement
+'''list1=["red","blue","green","red",1,3,10.34]
+i=0
+while i<len(list1):
+    print(list1[i])
+    i = i + 1'''
+# shorthand for in list
+'''list1=["red","blue","green","red",1,3,10.34]
+[print(x, end=' , ') for x in list1]'''
+# lower case to uppercase
+'''list1=["red","blue","green","red",'pink','orange']
+[x.upper() for x in list1]
+print(list1)'''
+# searching in list
+'''list1=["red","blue","green","red",1,3,10.34]
+x='banana'
+[print('yes') if x in list1 else print("no")]'''
+# reverse method
+'''list1=["red","blue","green","red",1,3,10.34]
+list1.reverse()
+print(list1)'''
+# sorting with key
+'''list1=["red","blue","green","red"]
+list1.sort(key=str.lower)
+print(list1)'''
+# sorting with while
+'''list1=["red","blue","green","red"]
+list1.sort(reverse=True)
+print(list1)'''
