@@ -342,18 +342,22 @@ while i<len(list1):
 # shorthand for in list
 '''list1=["red","blue","green","red",1,3,10.34]
 [print(x, end=' , ') for x in list1]'''
+
 # lower case to uppercase
 '''list1=["red","blue","green","red",'pink','orange']
 [x.upper() for x in list1]
 print(list1)'''
+
 # searching in list
 '''list1=["red","blue","green","red",1,3,10.34]
 x='banana'
 [print('yes') if x in list1 else print("no")]'''
+
 # reverse method
 '''list1=["red","blue","green","red",1,3,10.34]
 list1.reverse()
 print(list1)'''
+
 # sorting with key
 '''list1=["red","blue","green","red"]
 list1.sort(key=str.lower)
@@ -362,3 +366,36 @@ print(list1)'''
 '''list1=["red","blue","green","red"]
 list1.sort(reverse=True)
 print(list1)'''
+
+# using COPY method
+#1
+'''A=["red","blue","green","red"]
+newlist=A.copy()
+print(newlist)'''
+#2
+'''A=["red","blue","green","red"]
+newlist=list(A)
+print(newlist)'''
+#3
+'''A=["red","blue","green","red"]
+newlist=A[:]
+print(newlist)'''
+
+# joining 2 lists
+#1
+'''A=["red","blue","green","red"]
+B=[1,2,3]
+newlist = A + B
+print(newlist)'''
+#2
+'''A=["red","blue","green","red"]
+B=[1,2,3]
+for x in B:
+    A.append(x)
+print(A)'''
+
+# extend
+'''A=["red","blue","green","red"]
+B=[1,2,3]
+A.extend(B)
+print(A)'''
