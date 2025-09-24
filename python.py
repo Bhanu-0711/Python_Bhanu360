@@ -399,3 +399,92 @@ print(A)'''
 B=[1,2,3]
 A.extend(B)
 print(A)'''
+
+## TUPLE
+'''t=("apple","banana","kiwi",'cherry','grapes','pineapple')
+print(t[2:5])
+print(t[-4:-1])
+print( :-1)'''
+# check if ele is there
+'''t=("apple","banana","kiwi",'cherry','grapes','pineapple')
+if 'apple' in t:
+    print('Yes')
+else:
+    print('No')'''
+#changing element in tuple
+'''t=("apple","banana","kiwi",'cherry','grapes','pineapple')
+l=list(t)
+l.append('orange')
+t=tuple(l)
+print(t)'''
+# unpacking a tuple
+'''t=("apple","banana")
+x,y=t
+print(x,y)'''
+# tuple accessing
+'''t=("apple","banana","kiwi",'cherry','grapes','pineapple')
+for key,item in enumerate(t):
+    print(key,item)'''
+
+## Dictionary
+#1 printing the key 
+'''d={1:'BMW',2:'AMG',3:'R8'}
+for key in d:
+    print(d[key])
+    print(type(d[key]))# type will be str'''
+#2 printing the values of key
+'''d={1:'BMW',2:'AMG',3:'R8'}
+for key in d:
+    print(d[key])
+    print(type(key))#type will be int'''
+#3 deleting the list
+'''d={1:'BMW',2:'AMG',3:'R8'}
+del(d)'''
+#4 clearing a list
+'''d={1:'BMW',2:'AMG',3:'R8'}
+clear(d)'''
+#5 popping elements in dict
+'''d={1:'BMW',2:'AMG',3:'R8'}
+d.popitem() # here it will delete the last element and if we use pop then dict will be popped
+print(d)'''
+#6 length of dict
+'''d={1:'BMW',2:'AMG',3:'R8'}
+print(len(d))'''
+#7 dictionary constructor
+'''d=dict(brand='BMW',modle:'330li',style:'sports')
+print(d)'''
+#8 accessing item
+'''d={"brand":"BMW","mode":"xyz","year":2025}
+x=d['mode']
+print(x)'''
+#9 using get function to print elements 
+'''d={"brand":"BMW","mode":"xyz","year":2025}
+x=d.get('mode')'''
+#10 printing keys of the dict
+'''d={"brand":"BMW","mode":"xyz","year":2025}
+x=d.keys()
+print(x)'''
+#11 printing values of the dict
+'''d={"brand":"BMW","mode":"xyz","year":2025}
+x=d.values()
+print(x)'''
+#12 adding values to the dict
+'''d={"brand":"BMW","mode":"xyz","year":2023}
+d["color"]="red"
+print(d)'''
+#13 printing keys and values of the dict
+'''d={"brand":"BMW","mode":"xyz","year":2023}
+x=d.items()
+print(d)'''
+#14 checking if item is present in the dict
+'''d={"brand":"BMW","mode":"xyz","year":2023}
+if 'mode' in d:
+    print('yes')'''
+#15 changing value in a dict
+'''d={"brand":"BMW","mode":"xyz","year":2023}
+d['mode']='s'  '''
+#16 updating values in the dict
+'''d={"brand":"BMW","mode":"xyz","year":2023}
+d.update('mode':'yy')
+print(d)'''
+
