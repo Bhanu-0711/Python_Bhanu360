@@ -2,8 +2,7 @@
 import math
 import random
 x=int(input('Enter the range:- '))
-y=str(x//2)
-print('You will get only '+y+' chances') 
+print(f'You will get only {x//2} chances') 
 a=random.randint(1,x)
 for i in range(1,(x//2)+1):
     b=int(input('Enter the no. you guess:- '))
