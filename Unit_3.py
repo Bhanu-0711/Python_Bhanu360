@@ -16,5 +16,5 @@ adding(a,b)'''
 10,20=swapping(a,b)'''
 
 #Lambda functon 
-v=lambda n:n**2
-print(v(10))
+'''v=lambda n:n**2
+print(v(10))'''
